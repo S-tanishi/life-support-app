@@ -14,5 +14,5 @@ use App\Http\Controllers\TopController;
 */
 
 // トップページ
-Route::get('/', [TopControoler::class, 'index']);
+Route::get('/', [TopController::class, 'index']);
 
